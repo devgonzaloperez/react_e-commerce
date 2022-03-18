@@ -1,0 +1,26 @@
+.itemListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: Arial, Helvetica, sans-serif;
+    .itemListContainer__loaderContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+    }
+    .itemListContainer__noResults{
+        margin-bottom: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: rgb(210, 205, 236);
+        font-size: 40px;
+        h2{
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+    }
+}

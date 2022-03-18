@@ -1,0 +1,53 @@
+.itemCount{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .itemCount__counter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        button{
+            width: 40px;
+            height: 40px;
+            font-size: 20px;
+            border: none;
+            background-color: rgb(14, 42, 71);
+            color: white;
+            cursor: pointer;
+            border-radius: 100px;
+        }
+        button:hover{
+            background-color: rgb(21, 62, 105);
+        }
+        button:active{
+            transform: translateY(2px);
+        }
+        p{
+            font-size: 80px;
+            margin: 0px 10px 0px 10px;
+        }
+    }
+    p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .addButton{
+        width: 90%;
+        font-size: 20px;
+        padding: 20px;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(15, 83, 156);
+        color: white;
+        border-radius: 20px;
+    }
+    .addButton:hover{
+        background-color: rgb(13, 96, 185);
+    }
+    .addButton:active{
+        transform: translateY(2px);
+    }
+}

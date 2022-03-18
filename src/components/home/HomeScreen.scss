@@ -1,0 +1,59 @@
+.homeScreen__main{
+    height: 90vh;
+    width: 100%vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .homeScreen__main-sectionOne{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        color: rgb(210, 205, 236);
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='800' preserveAspectRatio='none' viewBox='0 0 2000 800'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1033%26quot%3b)' fill='none'%3e%3crect width='2000' height='800' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M -630.480239005333%2c618 C -497.08%2c544.2 -230.28%2c253.2 36.519760994667024%2c249 C 303.32%2c244.8 436.72%2c581.8 703.519760994667%2c597 C 970.32%2c612.2 1103.72%2c309.2 1370.519760994667%2c325 C 1637.32%2c340.8 1911.62%2c669.4 2037.519760994667%2c676 C 2163.42%2c682.6 2007.5%2c421.6 2000%2c358' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -1109.2567222526934%2c601 C -975.86%2c535.2 -709.06%2c301 -442.25672225269346%2c272 C -175.46%2c243 -42.06%2c467.8 224.74327774730654%2c456 C 491.54%2c444.2 624.94%2c164.6 891.7432777473066%2c213 C 1158.54%2c261.4 1337.09%2c686 1558.7432777473066%2c698 C 1780.39%2c710 1911.75%2c358 2000%2c273' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -744.8381213706705%2c613 C -611.44%2c516.2 -344.64%2c122.4 -77.83812137067045%2c129 C 188.96%2c135.6 322.36%2c653.8 589.1618786293295%2c646 C 855.96%2c638.2 989.36%2c83.6 1256.1618786293295%2c90 C 1522.96%2c96.4 1774.39%2c632.4 1923.1618786293295%2c678 C 2071.93%2c723.6 1984.63%2c390 2000%2c318' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -432.08572147587523%2c195 C -298.69%2c299.8 -31.89%2c692 234.91427852412477%2c719 C 501.71%2c746 635.11%2c363.8 901.9142785241247%2c330 C 1168.71%2c296.2 1302.11%2c543 1568.9142785241247%2c550 C 1835.71%2c557 2149.7%2c342 2235.9142785241247%2c365 C 2322.13%2c388 2047.18%2c605 2000%2c665' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1033'%3e%3crect width='2000' height='800' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        .homeScreen__main-sectionOne-title{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h1{
+                margin-bottom: 20px;
+                font-size: 100px;
+            }
+            h2{
+                margin-bottom: 20px;
+                font-size: 40px;
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 241, 89);
+                }
+            }
+            p{
+                font-size: 30px;
+                text-align: right;
+            }
+        }
+        .homeScreen__main-sectionOne-phone{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                max-height: 80%;
+                max-width: 80%;
+                animation: rotation 6s infinite linear;
+            }
+        }
+    }
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
